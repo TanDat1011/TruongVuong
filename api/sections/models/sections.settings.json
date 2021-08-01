@@ -1,0 +1,24 @@
+{
+  "kind": "collectionType",
+  "collectionName": "sections",
+  "info": {
+    "name": "Sections",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "menu.link"
+    },
+    "Label": {
+      "type": "string"
+    }
+  }
+}
