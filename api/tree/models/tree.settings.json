@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "trees",
+  "info": {
+    "name": "Tree",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "parentid": {
+      "model": "tree"
+    }
+  }
+}
